@@ -16,9 +16,14 @@
 
     </head>
     <body>
+        <!--  start navbar   -->
+        <nav class="navbar navbar-light bg-light px-3">
+            <a class="navbar-brand" href="home">Pet Store</a>
+        </nav>
+        <!--   end navbar   -->
         <div class="container">
             <h1 class="text-center mb-4">Order a Pet</h1>
-            <form>
+            <form action="#" method="POST">
                 <div class="form-group row">
                     <label for="petType" class="col-sm-3 col-form-label">What kind of pet would you like to order?</label>
                     <div class="col-sm-8">
@@ -29,12 +34,14 @@
                     <label for="petColor" class="col-sm-5 col-form-label">Select a Color</label>
                     <div class="col-sm-7">
                         <select class="form-select" name="petColor" id="petColor">
-                            <option value="Gold">Gold</option>
-                            <option value="White">White</option>
-                            <option value="Black">Black</option>
-                            <option value="Yellow">Yellow</option>
-                            <option value="Cream">Cream</option>
-                            <option value="Multicolored">Multicolored</option>
+                            <option value="red">Red</option>
+                            <option value="orange">Orange</option>
+                            <option value="yellow">Yellow</option>
+                            <option value="green">Green</option>
+                            <option value="blue">Blue</option>
+                            <option value="purple">Purple</option>
+                            <option value="black">Black</option>
+                            <option value="white">White</option>
                         </select>
                     </div>
                     <div class="form-group flex-column d-flex mx-auto">
@@ -42,22 +49,6 @@
                     </div>
                 </div>
             </form>
-<!--            <form action="#" method="POST" class="form-group">-->
-
-<!--                <div>-->
-<!--                    <label class="" for="petType">What kind of pet would you like to order?</label>-->
-<!--                    <input type="text" class="form-control col-6" id="petType" name="petType">-->
-<!--                </div>-->
-
-<!--                <label for="petColor">Select a Color</label>-->
-<!--                <select id="petColor" name="petColor" class="form-select">-->
-<!--                    <option value="Gold">Gold</option>-->
-<!--                    <option value="White">White</option>-->
-<!--                    <option value="Black">Black</option>-->
-<!--                    <option value="Yellow">Yellow</option>-->
-<!--                    <option value="Cream">Cream</option>-->
-<!--                    <option value="Multicolored">Multicolored</option>-->
-<!--            </form>-->
         </div>
     </body>
 </html>
