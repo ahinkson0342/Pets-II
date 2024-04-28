@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-// 328/diner/index.php
+
 // This is my CONTROLLER!
 
 // Turn on error reporting
