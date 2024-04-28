@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pets</title>
+        <!-- BOOTSTRAP CDNS ------------------------------------------------>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+              crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"></script>
+        <!-- END BOOTSTRAP CDNS --------------------------------------------->
+
+        <link rel="stylesheet" href="styles/styles.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="text-center mb-4">Order a Pet</h1>
+            <form>
+                <div class="form-group row">
+                    <label for="petType" class="col-sm-3 col-form-label">What kind of pet would you like to order?</label>
+                    <div class="col-sm-8">
+                        <input class="form-control" name="petType" type="text" id="petType">
+                    </div>
+                </div>
+                <div class="form-group col-4 row mx-auto">
+                    <label for="petColor" class="col-sm-5 col-form-label">Select a Color</label>
+                    <div class="col-sm-7">
+                        <select class="form-select" name="petColor" id="petColor">
+                            <option value="Gold">Gold</option>
+                            <option value="White">White</option>
+                            <option value="Black">Black</option>
+                            <option value="Yellow">Yellow</option>
+                            <option value="Cream">Cream</option>
+                            <option value="Multicolored">Multicolored</option>
+                        </select>
+                    </div>
+                    <div class="form-group flex-column d-flex mx-auto">
+                        <button class="btn btn-primary mt-4" type="submit">Place Order</button>
+                    </div>
+                </div>
+            </form>
+<!--            <form action="#" method="POST" class="form-group">-->
+
+<!--                <div>-->
+<!--                    <label class="" for="petType">What kind of pet would you like to order?</label>-->
+<!--                    <input type="text" class="form-control col-6" id="petType" name="petType">-->
+<!--                </div>-->
+
+<!--                <label for="petColor">Select a Color</label>-->
+<!--                <select id="petColor" name="petColor" class="form-select">-->
+<!--                    <option value="Gold">Gold</option>-->
+<!--                    <option value="White">White</option>-->
+<!--                    <option value="Black">Black</option>-->
+<!--                    <option value="Yellow">Yellow</option>-->
+<!--                    <option value="Cream">Cream</option>-->
+<!--                    <option value="Multicolored">Multicolored</option>-->
+<!--            </form>-->
+        </div>
+    </body>
+</html>
