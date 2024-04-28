@@ -21,5 +21,23 @@ $f3->route('GET /',function()
     echo $view->render('views/home.html');
 });
 
+$f3->route('GET /home',function()
+{
+    //echo '<h1>Hello World!</h1>';
+
+    //Render a view page
+    $view = new Template();
+    echo $view->render('views/home.html');
+});
+
+$f3->route('GET /order',function()
+{
+    //echo '<h1>Hello World!</h1>';
+
+    //Render a view page
+    $view = new Template();
+    echo $view->render('views/order.html');
+});
+
 //Run fat-free
 $f3->Run();
