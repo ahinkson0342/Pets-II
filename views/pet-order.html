@@ -25,9 +25,16 @@
             <h1 class="text-center mb-4">Order a Pet</h1>
             <form action="#" method="POST">
                 <div class="form-group row">
-                    <label for="petType" class="col-sm-3 col-form-label">What kind of pet would you like to order?</label>
+                    <label class="col-sm-3 col-form-label">What kind of pet would you like to order?</label>
                     <div class="col-sm-8">
-                        <input class="form-control" name="petType" type="text" id="petType">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="petType" value="stuffed" id="stuffed" checked>
+                            <label class="form-check-label" for="stuffed">Stuffed</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="petType" value="robotic" id="robotic">
+                            <label class="form-check-label" for="robotic">Robotic</label>
+                        </div>
                     </div>
                 </div>
                 <div class="form-group col-4 row mx-auto">
