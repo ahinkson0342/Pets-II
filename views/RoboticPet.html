@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Robotic Pet Accessories</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="text-center">Robotic Pet Accessories</h1>
+    <form action="" method="POST">
+        <div class="form-group">
+            <label class="form-label">Select Accessories</label>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="accessories[]" value="Extra Battery Packs" id="extraBatteryPacks">
+                <label class="form-check-label" for="extraBatteryPacks">Extra Battery Packs</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="accessories[]" value="Charging Dock/Station" id="chargingDock">
+                <label class="form-check-label" for="chargingDock">Charging Dock/Station</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="accessories[]" value="Voice Module" id="voiceModule">
+                <label class="form-check-label" for="voiceModule">Voice Module</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="accessories[]" value="Camera Attachment" id="cameraAttachment">
+                <label class="form-check-label" for="cameraAttachment">Camera Attachment</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="accessories[]" value="Remote Control" id="remoteControl">
+                <label class="form-check-label" for="remoteControl">Remote Control</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="accessories[]" value="Custom Skins" id="customSkins">
+                <label class="form-check-label" for="customSkins">Custom Skins</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="accessories[]" value="Bluetooth Speaker Module" id="bluetoothSpeakerModule">
+                <label class="form-check-label" for="bluetoothSpeakerModule">Bluetooth Speaker Module</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary" type="submit">Place Order</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
