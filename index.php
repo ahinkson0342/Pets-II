@@ -1,5 +1,5 @@
 <?php
-// Enable error reporting
+// Turn on error reporting
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -97,10 +97,11 @@ $f3->route('GET|POST /stuffed', function($f3) {
         $f3->get('SESSION.pet')->setStuffingType($_POST['stuffingType']);
 
 
+        //part of the failed attempts below
+
         //  $size = $_POST['size'];
        // $material = $_POST['material'];
       //  $stuffingType = $_POST['stuffingType'];
-        // Get and save the submitted form data for stuffed pet
        // $f3->set('SESSION.size', $size);
      //   $f3->set('SESSION.material', $material);
       //  $f3->set('SESSION.stuffingType', $stuffingType);
