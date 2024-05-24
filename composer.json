@@ -1,7 +1,6 @@
 {
   "name": "328/pets",
-  "authors":
-  [
+  "authors": [
     {
       "name": "Andrew Hinkson",
       "email": "hinkson.andrew@student.greenriver.edu"
@@ -11,12 +10,12 @@
       "email": "cmatthews4278@gmail.com"
     }
   ],
-  "require":
-  {
+  "require": {
     "bcosca/fatfree-core": "dev-master"
   },
-  "autoload":
-  {
-    "classmap": ["classes/", "controllers/"]
+  "autoload": {
+    "classmap": [
+      "classes/"
+    ]
   }
 }

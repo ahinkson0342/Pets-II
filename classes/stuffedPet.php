@@ -5,13 +5,13 @@ class StuffedPet extends Pet {
     private $_material;
 
 
-    function __construct($animal = "unknown", $color = "?", $size = "medium", $stuffingType = "cotton", $material = "fabric") {
+    function __construct($animal = "unknown", $color = "?", $size = "?", $stuffingType = "cotton", $material = "fabric") {
         parent::__construct($animal, $color);
         $this->_size = $size;
         $this->_stuffingType = $stuffingType;
         $this->_material = $material;
     }
-    function setSize($size) {
+    function setSize(string $size) {
         $this ->_size = $size;
     }
     function getSize() {
@@ -39,4 +39,5 @@ class StuffedPet extends Pet {
     }
 
 }
+
 
